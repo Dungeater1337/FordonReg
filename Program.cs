@@ -29,13 +29,12 @@ class Program
             }
 
             else if(anw == 3){
-                Console.WriteLine("\n");
-                fordon.Edit();                
+
             }
-            
-            
+
+            else{
+                Console.WriteLine("Välj ett giltigt alternativ!"); 
+            }
         }
-            
-       
     }
 }

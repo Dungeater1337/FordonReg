@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\gregf\\OneDrive\\Skrivbord\\C#\\FordonRegister\\FordonReg\\FordonReg.csproj": {}
+    "C:\\Users\\gregf\\OneDrive\\Skrivbord\\C#\\FordonRegister\\FordonReg\\FordonReg.csproj": {}
   },
   "projects": {
-    "c:\\Users\\gregf\\OneDrive\\Skrivbord\\C#\\FordonRegister\\FordonReg\\FordonReg.csproj": {
+    "C:\\Users\\gregf\\OneDrive\\Skrivbord\\C#\\FordonRegister\\FordonReg\\FordonReg.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\gregf\\OneDrive\\Skrivbord\\C#\\FordonRegister\\FordonReg\\FordonReg.csproj",
+        "projectUniqueName": "C:\\Users\\gregf\\OneDrive\\Skrivbord\\C#\\FordonRegister\\FordonReg\\FordonReg.csproj",
         "projectName": "FordonReg",
-        "projectPath": "c:\\Users\\gregf\\OneDrive\\Skrivbord\\C#\\FordonRegister\\FordonReg\\FordonReg.csproj",
+        "projectPath": "C:\\Users\\gregf\\OneDrive\\Skrivbord\\C#\\FordonRegister\\FordonReg\\FordonReg.csproj",
         "packagesPath": "C:\\Users\\gregf\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\gregf\\OneDrive\\Skrivbord\\C#\\FordonRegister\\FordonReg\\obj\\",
+        "outputPath": "C:\\Users\\gregf\\OneDrive\\Skrivbord\\C#\\FordonRegister\\FordonReg\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\gregf\\AppData\\Roaming\\NuGet\\NuGet.Config",
