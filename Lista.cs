@@ -11,9 +11,9 @@ class Lista
         Console.WriteLine("1. Bil");
         Console.WriteLine("2. Cykel");
         Console.WriteLine("3. Flygplan");
-        int answ = int.Parse(Console.ReadLine());   
+        int anw = int.Parse(Console.ReadLine());   
 
-        switch(answ)
+        switch(anw)
         {
             case 1: 
              Console.WriteLine("\n");
