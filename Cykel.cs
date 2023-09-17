@@ -2,10 +2,10 @@ using System;
 using System.Collections.Generic;
 
 class Cykel : Fordon{
-    private string type;
+    private string material;
 
-    public Cykel(int year, string color, string producer, string type) : base(year, color, producer){
-        this.type = type;
+    public Cykel(int year, string color, string producer, string material) : base(year, color, producer){
+        this.material = material;
     }
 
     public override int GetYear()
@@ -23,7 +23,7 @@ class Cykel : Fordon{
         return producer;
     }
 
-    public string GetType(){
-        return type; 
+    public string GetMaterial(){
+        return material; 
     }
 }

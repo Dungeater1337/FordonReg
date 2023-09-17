@@ -16,7 +16,7 @@ class Lista
         switch(answ)
         {
             case 1: 
-            Console.WriteLine("\n");
+             Console.WriteLine("\n");
              Console.WriteLine("Vilket år: ");
              int year = int.Parse(Console.ReadLine());
              Console.WriteLine("Vilken färg: ");
@@ -32,30 +32,30 @@ class Lista
             break;
 
             case 2: 
-            Console.WriteLine("\n");
+             Console.WriteLine("\n");
              Console.WriteLine("Vilket år: ");
              int y = int.Parse(Console.ReadLine());
              Console.WriteLine("Vilken färg: ");
              string c = Console.ReadLine();
              Console.WriteLine("Vilken tillverkare: ");
              string p = Console.ReadLine();
-             Console.WriteLine("Vilken typ av cykel: ");
-             string t = Console.ReadLine();
+             Console.WriteLine("Vilket material har cykelen: ");
+             string material = Console.ReadLine();
              Console.WriteLine("\n");
 
-             Cykel NewBike = new Cykel(y, c, p, t);
+             Cykel NewBike = new Cykel(y, c, p, material);
              create.Add(NewBike);
             break;
 
             case 3: 
-            Console.WriteLine("\n");
+             Console.WriteLine("\n");
              Console.WriteLine("Vilket år: ");
              int ye = int.Parse(Console.ReadLine());
              Console.WriteLine("Vilken färg: ");
              string co = Console.ReadLine();
              Console.WriteLine("Vilken tillverkare: ");
              string pr = Console.ReadLine();
-             Console.WriteLine("Vilken typ av flygplan: ");
+             Console.WriteLine("Vilket typ av flygplan: ");
              string type = Console.ReadLine();
              Console.WriteLine("\n");
 
@@ -89,7 +89,7 @@ class Lista
                 Console.WriteLine($"År: {fordon.GetYear()}");
                 Console.WriteLine($"Färg: {fordon.GetColor()}");
                 Console.WriteLine($"Tillverkare: {fordon.GetProducer()}");
-                Console.WriteLine($"Cykel: {cykel.GetType()}");
+                Console.WriteLine($"Cykel: {cykel.GetMaterial()}");
                 Console.WriteLine("---------------------------------------");
             }
 
@@ -107,6 +107,66 @@ class Lista
                 Console.WriteLine("-------------");
                 Console.WriteLine("Okänt fordon.");
                 Console.WriteLine("-------------");
+            }
+
+        }
+    }
+
+    public void Edit()
+    {
+        
+        int selectedIndex = int.Parse(Console.ReadLine());
+        if(selectedIndex >= 0 && selectedIndex < create.Count)
+        {
+            Fordon selectedObjekt = create[selectedIndex];
+
+            if(selectedObjekt is Bil bil){
+             Console.WriteLine("\n");
+             Console.WriteLine("Vilket år: ");
+             int newYear = int.Parse(Console.ReadLine());
+             Console.WriteLine("Vilken färg: ");
+             string newColor = Console.ReadLine();
+             Console.WriteLine("Vilken tillverkare: ");
+             string newProducer = Console.ReadLine();
+             Console.WriteLine("Vilken modell: ");
+             string newModell = Console.ReadLine();
+
+             Bil newCar = new Bil(newYear, newColor, newProducer, newModell);
+             create.Add(newCar);
+            }
+
+            else if(selectedObjekt is Cykel cykel){
+             Console.WriteLine("\n");
+             Console.WriteLine("Vilket år: ");
+             int newYear = int.Parse(Console.ReadLine());
+             Console.WriteLine("Vilken färg: ");
+             string newColor = Console.ReadLine();
+             Console.WriteLine("Vilken tillverkare: ");
+             string newProducer = Console.ReadLine();
+             Console.WriteLine("Vilket Material: ");
+             string newMaterial = Console.ReadLine();
+
+             Cykel newCykel = new Cykel(newYear, newColor, newProducer, newMaterial);
+             create.Add(newCykel);
+            }
+
+            else if(selectedObjekt is Flygplan flygplan){
+             Console.WriteLine("\n");
+             Console.WriteLine("Vilket år: ");
+             int newYear = int.Parse(Console.ReadLine());
+             Console.WriteLine("Vilken färg: ");
+             string newColor = Console.ReadLine();
+             Console.WriteLine("Vilken tillverkare: ");
+             string newProducer = Console.ReadLine();
+             Console.WriteLine("Vilket typ av flygplan: ");
+             string newType = Console.ReadLine();
+
+             Flygplan newAirplane = new Flygplan(newYear, newColor, newProducer, newType);
+             create.Add(newAirplane);
+            }
+
+            else{
+                Console.WriteLine("Välj giltigt alternativ!");
             }
         }
     }
