@@ -26,4 +26,8 @@ class Cykel : Fordon{
     public string GetMaterial(){
         return material; 
     }
+
+    public void SetMaterial(string m){
+        material = m;
+    }
 }

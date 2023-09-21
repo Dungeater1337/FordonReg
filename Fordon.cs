@@ -24,4 +24,19 @@ class Fordon
     public virtual string GetProducer(){
         return "";
     }
+
+    public virtual void SetYear(int y)
+    {
+        year = y;
+    }
+
+     public virtual void SetColor(string c)
+    {
+        color = c;
+    }
+
+     public virtual void SetProducer(string p)
+    {
+        producer = p;
+    }
 }

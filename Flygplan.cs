@@ -26,5 +26,8 @@ class Flygplan : Fordon{
     public string GetType(){
         return type; 
     }
-    
+
+    public void SetType(string t){
+        type = t;
+    }
 }

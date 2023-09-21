@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\gregf\\OneDrive\\Skrivbord\\C#\\FordonRegister\\FordonReg\\FordonReg.csproj": {}
+    "C:\\Users\\Admin\\Documents\\GitHub\\webb-utveckling\\webb-utveckling\\FordonReg\\FordonReg.csproj": {}
   },
   "projects": {
-    "C:\\Users\\gregf\\OneDrive\\Skrivbord\\C#\\FordonRegister\\FordonReg\\FordonReg.csproj": {
+    "C:\\Users\\Admin\\Documents\\GitHub\\webb-utveckling\\webb-utveckling\\FordonReg\\FordonReg.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gregf\\OneDrive\\Skrivbord\\C#\\FordonRegister\\FordonReg\\FordonReg.csproj",
+        "projectUniqueName": "C:\\Users\\Admin\\Documents\\GitHub\\webb-utveckling\\webb-utveckling\\FordonReg\\FordonReg.csproj",
         "projectName": "FordonReg",
-        "projectPath": "C:\\Users\\gregf\\OneDrive\\Skrivbord\\C#\\FordonRegister\\FordonReg\\FordonReg.csproj",
-        "packagesPath": "C:\\Users\\gregf\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gregf\\OneDrive\\Skrivbord\\C#\\FordonRegister\\FordonReg\\obj\\",
+        "projectPath": "C:\\Users\\Admin\\Documents\\GitHub\\webb-utveckling\\webb-utveckling\\FordonReg\\FordonReg.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Admin\\Documents\\GitHub\\webb-utveckling\\webb-utveckling\\FordonReg\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\gregf\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -55,7 +55,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }

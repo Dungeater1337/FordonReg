@@ -26,4 +26,8 @@ class Bil : Fordon{
     public string GetModell(){
         return modell; 
     }
+
+    public void SetModell(string m){
+        modell = m;
+    }
 }

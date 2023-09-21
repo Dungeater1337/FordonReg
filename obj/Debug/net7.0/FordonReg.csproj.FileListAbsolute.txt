@@ -28,3 +28,17 @@ C:\Users\gregf\OneDrive\Skrivbord\C#\FordonRegister\FordonReg\obj\Debug\net7.0\r
 C:\Users\gregf\OneDrive\Skrivbord\C#\FordonRegister\FordonReg\obj\Debug\net7.0\FordonReg.pdb
 C:\Users\gregf\OneDrive\Skrivbord\C#\FordonRegister\FordonReg\obj\Debug\net7.0\FordonReg.genruntimeconfig.cache
 C:\Users\gregf\OneDrive\Skrivbord\C#\FordonRegister\FordonReg\obj\Debug\net7.0\ref\FordonReg.dll
+C:\Users\Admin\Documents\GitHub\webb-utveckling\webb-utveckling\FordonReg\bin\Debug\net7.0\FordonReg.exe
+C:\Users\Admin\Documents\GitHub\webb-utveckling\webb-utveckling\FordonReg\bin\Debug\net7.0\FordonReg.deps.json
+C:\Users\Admin\Documents\GitHub\webb-utveckling\webb-utveckling\FordonReg\bin\Debug\net7.0\FordonReg.runtimeconfig.json
+C:\Users\Admin\Documents\GitHub\webb-utveckling\webb-utveckling\FordonReg\bin\Debug\net7.0\FordonReg.dll
+C:\Users\Admin\Documents\GitHub\webb-utveckling\webb-utveckling\FordonReg\bin\Debug\net7.0\FordonReg.pdb
+C:\Users\Admin\Documents\GitHub\webb-utveckling\webb-utveckling\FordonReg\obj\Debug\net7.0\FordonReg.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Documents\GitHub\webb-utveckling\webb-utveckling\FordonReg\obj\Debug\net7.0\FordonReg.AssemblyInfoInputs.cache
+C:\Users\Admin\Documents\GitHub\webb-utveckling\webb-utveckling\FordonReg\obj\Debug\net7.0\FordonReg.AssemblyInfo.cs
+C:\Users\Admin\Documents\GitHub\webb-utveckling\webb-utveckling\FordonReg\obj\Debug\net7.0\FordonReg.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\GitHub\webb-utveckling\webb-utveckling\FordonReg\obj\Debug\net7.0\FordonReg.dll
+C:\Users\Admin\Documents\GitHub\webb-utveckling\webb-utveckling\FordonReg\obj\Debug\net7.0\refint\FordonReg.dll
+C:\Users\Admin\Documents\GitHub\webb-utveckling\webb-utveckling\FordonReg\obj\Debug\net7.0\FordonReg.pdb
+C:\Users\Admin\Documents\GitHub\webb-utveckling\webb-utveckling\FordonReg\obj\Debug\net7.0\FordonReg.genruntimeconfig.cache
+C:\Users\Admin\Documents\GitHub\webb-utveckling\webb-utveckling\FordonReg\obj\Debug\net7.0\ref\FordonReg.dll

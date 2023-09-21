@@ -76,9 +76,9 @@ class Lista
             if(fordon is Bil bil)
             {
                 Console.WriteLine("---------------------------------------");
-                Console.WriteLine($"År: {fordon.GetYear()}");
-                Console.WriteLine($"Färg: {fordon.GetColor()}");
-                Console.WriteLine($"Tillverkare: {fordon.GetProducer()}");
+                Console.WriteLine($"År: {bil.GetYear()}");
+                Console.WriteLine($"Färg: {bil.GetColor()}");
+                Console.WriteLine($"Tillverkare: {bil.GetProducer()}");
                 Console.WriteLine($"Modell: {bil.GetModell()}");
                 Console.WriteLine("---------------------------------------");
             }
@@ -86,9 +86,9 @@ class Lista
             else if(fordon is Cykel cykel)
             {
                 Console.WriteLine("---------------------------------------");
-                Console.WriteLine($"År: {fordon.GetYear()}");
-                Console.WriteLine($"Färg: {fordon.GetColor()}");
-                Console.WriteLine($"Tillverkare: {fordon.GetProducer()}");
+                Console.WriteLine($"År: {cykel.GetYear()}");
+                Console.WriteLine($"Färg: {cykel.GetColor()}");
+                Console.WriteLine($"Tillverkare: {cykel.GetProducer()}");
                 Console.WriteLine($"Cykel: {cykel.GetMaterial()}");
                 Console.WriteLine("---------------------------------------");
             }
@@ -96,9 +96,9 @@ class Lista
             else if(fordon is Flygplan flygplan)
             {
                 Console.WriteLine("---------------------------------------");
-                Console.WriteLine($"År: {fordon.GetYear()}");
-                Console.WriteLine($"Färg: {fordon.GetColor()}");
-                Console.WriteLine($"Tillverkare: {fordon.GetProducer()}");
+                Console.WriteLine($"År: {flygplan.GetYear()}");
+                Console.WriteLine($"Färg: {flygplan.GetColor()}");
+                Console.WriteLine($"Tillverkare: {flygplan.GetProducer()}");
                 Console.WriteLine($"Flyplan: {flygplan.GetType()}");
                 Console.WriteLine("---------------------------------------");
             }
@@ -108,6 +108,84 @@ class Lista
                 Console.WriteLine("Okänt fordon.");
                 Console.WriteLine("-------------");
             }
+        }
+    }
+
+    public void Edit()
+    {
+        Console.WriteLine("Välj vilket Objekt vill du redigera");
+        int selectedIndex = int.Parse(Console.ReadLine()); 
+        if(create[selectedIndex] is Bil)
+        {
+            Bil bil = (Bil)create[selectedIndex];
+            Console.WriteLine($"Nuvarande modell: {bil.GetModell()}");
+            Console.WriteLine("Ange ny modell:");
+            string newModell = Console.ReadLine();
+            bil.SetModell(newModell);
+
+            Console.WriteLine($"Nuvarande år: {bil.GetYear()}");
+            Console.WriteLine("Ange ett nytt år:");
+            int newYear = int.Parse(Console.ReadLine());
+            bil.SetYear(newYear);
+
+            Console.WriteLine($"Nuvarande färg: {bil.GetColor()}");
+            Console.WriteLine("Ange ny färg:");
+            string newColor = Console.ReadLine();
+            bil.SetColor(newColor);
+
+            Console.WriteLine($"Nuvarande tillverkare: {bil.GetProducer()}");
+            Console.WriteLine("Ange nu tillverkare:");
+            string newProducer = Console.ReadLine();
+            bil.SetProducer(newProducer);
+            
+        }
+
+        if(create[selectedIndex] is Cykel)
+        {
+             Cykel cykel = (Cykel)create[selectedIndex];
+            Console.WriteLine($"Nuvarande modell: {cykel.GetMaterial()}");
+            Console.WriteLine("Ange ny modell:");
+            string newMaterial = Console.ReadLine();
+            cykel.SetMaterial(newMaterial);
+
+            Console.WriteLine($"Nuvarande år: {cykel.GetYear()}");
+            Console.WriteLine("Ange ett nytt år:");
+            int newYear = int.Parse(Console.ReadLine());
+            cykel.SetYear(newYear);
+
+            Console.WriteLine($"Nuvarande färg: {cykel.GetColor()}");
+            Console.WriteLine("Ange ny färg:");
+            string newColor = Console.ReadLine();
+            cykel.SetColor(newColor);
+
+            Console.WriteLine($"Nuvarande tillverkare: {cykel.GetProducer()}");
+            Console.WriteLine("Ange nu tillverkare:");
+            string newProducer = Console.ReadLine();
+            cykel.SetProducer(newProducer);
+        }
+
+        if(create[selectedIndex] is Flygplan)
+        {
+             Flygplan flygplan = (Flygplan)create[selectedIndex];
+            Console.WriteLine($"Nuvarande modell: {flygplan.GetType()}");
+            Console.WriteLine("Ange ny modell:");
+            string newType = Console.ReadLine();
+            flygplan.SetType(newType);
+
+            Console.WriteLine($"Nuvarande år: {flygplan.GetYear()}");
+            Console.WriteLine("Ange ett nytt år:");
+            int newYear = int.Parse(Console.ReadLine());
+            flygplan.SetYear(newYear);
+
+            Console.WriteLine($"Nuvarande färg: {flygplan.GetColor()}");
+            Console.WriteLine("Ange ny färg:");
+            string newColor = Console.ReadLine();
+            flygplan.SetColor(newColor);
+
+            Console.WriteLine($"Nuvarande tillverkare: {flygplan.GetProducer()}");
+            Console.WriteLine("Ange nu tillverkare:");
+            string newProducer = Console.ReadLine();
+            flygplan.SetProducer(newProducer);
         }
     }
 }
